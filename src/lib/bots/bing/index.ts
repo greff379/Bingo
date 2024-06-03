@@ -100,25 +100,25 @@ export class BingWebBot {
     const uuid = randomUUID()
     const useBaseSets = (conversation.context?.length ?? 0) > 0
     const message = {
-      locale: 'zh-CN',
-      market: 'zh-CN',
-      region: 'PK',
+      locale: 'ru-RU',
+      market: 'ru-RU',
+      region: 'RU',
       locationHints: [
         {
           "SourceType": 1,
           "RegionType": 2,
           "Center": {
-            "Latitude": 30.3753,
-            "Longitude": 69.3451,
+            "Latitude": 55.7558,
+            "Longitude": 37.6176,
           },
           "Radius": 24902,
-          "Name": "Pakistan",
+          "Name": "Россия",
           "Accuracy": 24902,
           "FDConfidence": 0,
-          "CountryName": "Pakistan",
+          "CountryName": "Россия",
           "CountryConfidence": 9,
           "PopulatedPlaceConfidence": 0,
-          "UtcOffset": 8,
+          "UtcOffset": 3,
           "Dma": 0
         }
       ],

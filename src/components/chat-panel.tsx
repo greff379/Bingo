@@ -141,7 +141,7 @@ export function ChatPanel({
                 rows={1}
                 value={input}
                 onChange={e => setInput(e.target.value.slice(0, 8000))}
-                placeholder={voiceListening ? 'Разговор продолжается... Просто скажите «Отправить», когда разговор завершится»: «Shift + Enter, чтобы изменить строку, введите/выберите слово-подсказку».'}
+                placeholder={voiceListening ? 'The conversation is ongoing... Just say "Send" when the conversation is complete' : 'Shift + Enter to change the line, enter/select the prompt word'}
                 spellCheck={false}
                 className="message-input min-h-[24px] w-full text-base resize-none bg-transparent focus-within:outline-none"
               />

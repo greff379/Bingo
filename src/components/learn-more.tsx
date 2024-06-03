@@ -12,7 +12,7 @@ export function LearnMore({ sourceAttributions }: LearnMoreProps) {
 
   return (
     <div className="learn-more-root" role="list" aria-label="Learn more:">
-      <div className="learn-more">Learn more:</div>
+      <div className="learn-more">Узнать больше:</div>
       <div className="attribution-container">
         <div className="attribution-items">
           {sourceAttributions.map((attribution, index) => {

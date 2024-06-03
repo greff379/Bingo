@@ -41,7 +41,7 @@ export function UserMenu() {
             <div className="flex items-center justify-center text-xs font-medium uppercase rounded-full select-none h-7 w-7 shrink-0 bg-muted/50 text-muted-foreground">
               <SVG alt="settings" src={SettingIcon} width={20} />
             </div>
-            <span className="ml-2">Set Up</span>
+            <span className="ml-2">Настраивать</span>
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent sideOffset={8} align="start" className="w-[180px] bg-background">
@@ -51,7 +51,7 @@ export function UserMenu() {
             }
             className="cursor-pointer"
           >
-            User Info
+            Информация о пользователе
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem
@@ -60,7 +60,7 @@ export function UserMenu() {
             }
             className="cursor-pointer"
           >
-            Advanced Settings
+            Расширенные настройки
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem
@@ -69,7 +69,7 @@ export function UserMenu() {
             }
             className="cursor-pointer"
           >
-            Voice Settings
+            Голосовые настройки
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem
@@ -78,7 +78,7 @@ export function UserMenu() {
             }
             className="cursor-pointer"
           >
-            Prompt Word Management
+            Оперативное управление словами
           </DropdownMenuItem>
           <DropdownMenuItem asChild>
             <a
@@ -87,7 +87,7 @@ export function UserMenu() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-between w-full gap-2 cursor-pointer"
             >
-              Site URL
+              адрес сайта
               <IconGitHub />
               <IconExternalLink className="w-3 h-3 ml-auto" />
             </a>
